@@ -1,0 +1,72 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<!-- Home Section -->
+
+<section id="home" class="main-single-post parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <h1>Single Post</h1>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Blog Single Post Section -->
+
+<section id="blog-single-post">
+    <div class="container">
+         <div class="col-md-offset-1 col-md-10 col-sm-12">
+                  <div class="blog-post-thumb">
+<!--                         <div class="blog-post-image">-->
+<!--                                  <img src="" class="img-responsive" alt="Blog Image">-->
+<!--                         </div>-->
+                         <div class="blog-post-format">
+                              <span><a href="{{ url_for('users.user_posts', username=post.author.username) }}"><img src="{{url_for('static', filename='profile_pics/' + post.author.image_file)}}" class="img-responsive img-circle" style=" width: 55px;"> {{ post.author.username }}</a></span>
+                              <span><i class="fa fa-date"></i> {{ post.date_posted.strftime( ' %d %b %Y') }}</span>
+                              <span><a href="#"><i class="fa fa-comment-o"></i> 35 </a></span>
+                             <div class="blog-post-title">
+                                  <h3>Title: {{ post.title }}</h3>
+                             </div>
+                         </div>
+                         <div class="blog-post-des">
+                              <p style="white-space: pre-wrap">{{post.content}}</p>
+                         </div>
+                      {% if post.author == current_user %}
+                           <div>
+                               <a class="btn btn-primary btn-sm m-2 " href="{{url_for('posts.update_post', post_id=post.id)}}"> Update </a>
+                               <button type="button" class="btn btn-danger btn-sm m-2" data-toggle="modal" data-target="#deleteModal">Delete</button>
+                           </div>
+                      {% endif %}
+                  </div>
+          </div>
+        </div>
+</section>
+<!-- Modal -->
+     <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="deleteModalLabel">Delete Post</h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+             </button>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+             <form action="{{ url_for('posts.delete_post', post_id=post.id) }}" method="POST" style="display: inline-block">
+                 <input class="btn-danger" type="submit" value="Delete">
+             </form>
+           </div>
+         </div>
+       </div>
+     </div>
+
+<!-- Footer Section -->
+
+{% endblock content %}

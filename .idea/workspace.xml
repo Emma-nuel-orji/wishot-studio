@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfa02835-d608-4c51-9742-6c8b4ec2a9ad" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="user: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="flask forgotten-students" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2C9yf88LRxpkF7mTMZ7p085xOg7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blogapp/static/images" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Wisdom.O\Desktop\modular\blogapp\user" />
+      <recent name="C:\Users\Wisdom.O\Desktop\modular\blogapp\templates" />
+      <recent name="C:\Users\Wisdom.O\Desktop\flask forgotten-students\app\templates" />
+      <recent name="C:\Users\Wisdom.O\Desktop\flask forgotten-students" />
+      <recent name="C:\Users\Wisdom.O\Desktop\flask forgotten-students\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wisdom.O\Desktop\modular\blogapp\static\images" />
+      <recent name="C:\Users\User\PycharmProjects\flask forgotten-students\templates" />
+      <recent name="C:\Users\User\PycharmProjects\flask forgotten-students\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run (1)">
+    <configuration name="form.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/flask forgotten-students/app/templates/form.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/new project/blogapp/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="you.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/new project/blogapp/templates/you.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="new project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Users com\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="new project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Wisdom.O\Desktop\flask forgotten-students\run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="JavaScript Debug.you.html" />
+        <item itemvalue="JavaScript Debug.form.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5da3bb39" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5da3bb39" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@60d9de18" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5da3bb39" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5859f9bb" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfa02835-d608-4c51-9742-6c8b4ec2a9ad" name="Default Changelist" comment="" />
+      <created>1658229195182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658229195182</updated>
+      <workItem from="1658229196639" duration="2126000" />
+      <workItem from="1658406767971" duration="715000" />
+      <workItem from="1658414324883" duration="1113000" />
+      <workItem from="1658623036406" duration="5170000" />
+      <workItem from="1658663913610" duration="1116000" />
+      <workItem from="1658838872953" duration="10589000" />
+      <workItem from="1658860291127" duration="3295000" />
+      <workItem from="1659446672255" duration="3872000" />
+      <workItem from="1659593476182" duration="14431000" />
+      <workItem from="1659638330775" duration="7489000" />
+      <workItem from="1659661297710" duration="622000" />
+      <workItem from="1659661954354" duration="1961000" />
+      <workItem from="1659664698182" duration="598000" />
+      <workItem from="1659665328876" duration="1193000" />
+      <workItem from="1659698857882" duration="4550000" />
+      <workItem from="1659703491639" duration="570000" />
+      <workItem from="1659704089237" duration="1380000" />
+      <workItem from="1659724185102" duration="2902000" />
+      <workItem from="1660052779528" duration="5409000" />
+      <workItem from="1660159843139" duration="738000" />
+      <workItem from="1660220881206" duration="256000" />
+      <workItem from="1660221757839" duration="7509000" />
+      <workItem from="1660253061076" duration="8612000" />
+      <workItem from="1660298143081" duration="981000" />
+      <workItem from="1660302216215" duration="1122000" />
+      <workItem from="1660320737946" duration="384000" />
+      <workItem from="1660393284524" duration="1917000" />
+      <workItem from="1660478924952" duration="3847000" />
+      <workItem from="1660484540866" duration="10337000" />
+      <workItem from="1660508228835" duration="1275000" />
+      <workItem from="1660509959383" duration="7663000" />
+      <workItem from="1660547327929" duration="755000" />
+      <workItem from="1660651100105" duration="292000" />
+      <workItem from="1660692759231" duration="608000" />
+      <workItem from="1660774771663" duration="1640000" />
+      <workItem from="1660819454539" duration="2439000" />
+      <workItem from="1660824696625" duration="6708000" />
+      <workItem from="1660853696675" duration="13172000" />
+      <workItem from="1660895139383" duration="9913000" />
+      <workItem from="1660930474348" duration="8323000" />
+      <workItem from="1660940783319" duration="1338000" />
+      <workItem from="1660976937575" duration="10128000" />
+      <workItem from="1660993189791" duration="2765000" />
+      <workItem from="1661027372453" duration="309000" />
+      <workItem from="1661027718820" duration="432000" />
+      <workItem from="1661096473239" duration="11028000" />
+      <workItem from="1661253693826" duration="41930000" />
+      <workItem from="1661507444314" duration="11921000" />
+      <workItem from="1661610158340" duration="943000" />
+      <workItem from="1661635118251" duration="15205000" />
+      <workItem from="1661653107048" duration="10000" />
+      <workItem from="1661688433627" duration="630000" />
+      <workItem from="1661857393447" duration="23279000" />
+      <workItem from="1662027552430" duration="5512000" />
+      <workItem from="1662323951795" duration="5609000" />
+      <workItem from="1662475000789" duration="356000" />
+      <workItem from="1662475387860" duration="2229000" />
+      <workItem from="1662477673467" duration="5536000" />
+      <workItem from="1662579677435" duration="1323000" />
+      <workItem from="1662663851778" duration="1393000" />
+      <workItem from="1662793243076" duration="1473000" />
+      <workItem from="1662880519242" duration="1148000" />
+      <workItem from="1662909840751" duration="9791000" />
+      <workItem from="1662921372032" duration="3630000" />
+      <workItem from="1662925061568" duration="2343000" />
+      <workItem from="1662928026311" duration="2131000" />
+      <workItem from="1662931651155" duration="1955000" />
+      <workItem from="1663090494474" duration="1366000" />
+      <workItem from="1663104761796" duration="6976000" />
+      <workItem from="1663147403773" duration="7095000" />
+      <workItem from="1663250881676" duration="26593000" />
+      <workItem from="1663674470093" duration="641000" />
+      <workItem from="1663675140915" duration="3521000" />
+      <workItem from="1663853759197" duration="277000" />
+      <workItem from="1663854191530" duration="889000" />
+      <workItem from="1663867558295" duration="625000" />
+      <workItem from="1663928182025" duration="11656000" />
+      <workItem from="1663955434935" duration="2727000" />
+      <workItem from="1664228418028" duration="3831000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/new_project$route.coverage" NAME="route Coverage Results" MODIFIED="1659644679756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/new_project$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1664231885749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_forgotten_students$run.coverage" NAME="run Coverage Results" MODIFIED="1659644695730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_project$run.coverage" NAME="run Coverage Results" MODIFIED="1660940809834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_forgotten_students$route.coverage" NAME="route Coverage Results" MODIFIED="1658846539567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/flask_forgotten_students$app.coverage" NAME="app Coverage Results" MODIFIED="1658840493765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_forgotten_students$route__1_.coverage" NAME="route (1) Coverage Results" MODIFIED="1658846636975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_forgotten_students$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1659646484232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_forgotten_students$routes.coverage" NAME="routes Coverage Results" MODIFIED="1658845511764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+  </component>
+</project>

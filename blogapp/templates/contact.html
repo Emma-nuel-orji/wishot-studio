@@ -1,0 +1,101 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<!-- Home Section -->
+
+<section id="home" class="main-contact parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <h1>Contact Us</h1>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Contact Section -->
+
+<section id="contact">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <h2>Say hello..</h2>
+                    <p> For other information and bookings please send us a message, as we will be waiting. <br> Also for promotions of your photo(s) on our <strong>Gallery page </strong> you can also send us a message . <br> For Sponsorship you can also contact us here.</p>
+<form method="POST" action="" style="margin: 20px;width: 75%; margin: auto">
+       {{ form.hidden_tag() }}
+        <fieldset class="form-group m-3">
+            <legend class="border-bottom mb-5 text-info"> Send Us A Message</legend>
+            <div class="form-group">
+                {{ form.name.label(class= "form-control-label") }}
+                {% if form.name.errors %}
+                    {{ form.name(class= "form-control form-control-lg is-invalid") }}
+                    <div class="invalid-feedback">
+                         {% for error in form.name.errors %}
+                           <span class="alert-danger"> {{ error }} </span>
+                         {% endfor%}
+                    </div>
+                {% else%}
+                     {{ form.name(class= "form-control form-control-lg") }}
+                {% endif%}
+            </div>
+
+            <div class="form-group">
+                {{ form.contact_email.label(class= "form-control-label") }}
+               {% if form.contact_email.errors %}
+                   {{ form.contact_email(class= "form-control form-control-lg is-invalid") }}
+                    <div class="invalid-feedback">
+                         {% for error in form.contact_email.errors%}
+                           <span class="alert-danger"> {{ error }} </span>
+                         {% endfor%}
+                    </div>
+                {% else %}
+                     {{ form.contact_email(class= "form-control form-control-lg") }}
+                {% endif%}
+            </div>
+
+            <div class="form-group">
+                {{ form.subject.label(class= "form-control-label") }}
+                {% if form.subject.errors %}
+                   {{ form.subject(class= "form-control form-control-lg is-invalid") }}
+                    <div class="invalid-feedback">
+                         {% for error in form.subject.errors %}
+                           <span class="alert-danger"> {{ error }} </span>
+                         {% endfor%}
+                    </div>
+                {% else%}
+                     {{ form.subject(class= "form-control form-control-lg") }}
+                {% endif%}
+            </div>
+
+            <div class="form-group">
+                {{ form.message.label(class= "form-control-label") }}
+                {% if form.message.errors %}
+                    {{ form.message(class= "form-control form-control-lg is-invalid") }}
+                    <div class="invalid-feedback">
+                         {% for error in form.message.errors%}
+                            <span class="alert-danger"> {{ error }} </span>
+                         {% endfor%}
+                    </div>
+                {% else%}
+                     {{ form.message(class= "form-control form-control-lg") }}
+                {% endif%}
+            </div>
+        </fieldset>
+        <div class="form-group">
+        {{ form.submit( class="col-md-3 col-sm-6") }}
+        </div>
+    </form>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Footer Section -->
+
+{% endblock %}

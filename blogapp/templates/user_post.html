@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<section id="blog">
+    <div class="container">
+            <div class="col-md-offset-1 col-md-10 col-sm-12">
+                <h2 class="mb-3">Posts By {{user.username}} ({{ posts.total}}) </h2> <hr>
+            </div>
+    </div>
+         {% for post in posts.items %}
+    <div class="container">
+         <div class="col-md-offset-1 col-md-10 col-sm-12">
+                  <div class="blog-post-thumb">
+                         <div class="blog-post-image">
+                              <a href="{{url_for('posts.single', post_id=post.id)}}">
+                                  <img src="{{image_content}}" class="img-responsive" alt="Blog Image">
+                              </a>
+                         </div>
+                         <div class="blog-post-title">
+                              <h3><a href="{{ url_for('posts.single', post_id=post.id)}}">{{ post.title }} </a></h3>
+                         </div>
+                         <div class="blog-post-format">
+                              <span><a href="{{ url_for('users.user_posts', username=post.author.username)}}"><img src="{{url_for('static', filename='profile_pics/' + post.author.image_file)}}" class="img-responsive img-circle" style=" width: 55px;"> {{ post.author.username }}</a></span>
+                              <span><i class="fa fa-date"></i> {{ post.date_posted.strftime( ' %d %b %Y') }}</span>
+                              <span><a href="#"><i class="fa fa-comment-o"></i> 35 </a></span>
+                         </div>
+                         <div class="blog-post-des">
+                              <p style="white-space: pre-wrap">{{post.content}}</p>
+                              <a href="{{ url_for('posts.single',post_id=post.id)}}" class="btn btn-default">Continue Reading</a>
+                         </div>
+                  </div>
+          </div>
+        </div>
+
+</section>
+
+
+     {% endfor %}
+
+     {% for page_num in posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
+          {% if page_num %}
+               {% if posts.page == page_num %}
+                   <a  class="btn btn-danger mb-4" href="{{ url_for('users.user_posts', username=user.username, page=page_num) }}"> {{page_num}} </a>
+               {% else %}
+                   <a  class="btn btn-success mb-4" href="{{ url_for('users.user_posts', username=user.username, page=page_num) }}"> {{page_num}} </a>
+               {% endif %}
+          {% else %}
+               ...
+          {% endif %}
+     {% endfor %}
+<!-- Footer Section -->
+
+{% endblock content %}
