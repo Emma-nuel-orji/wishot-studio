@@ -18,8 +18,8 @@ app.config['MAIL_SERVER'] = "smtp.gmail.com"
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
-EMAIL_USERNAME = "eorji452@gmail.com"
-EMAIL_HOST_PASSWORD = "sqokdetbwukuwxzo"
+EMAIL_USERNAME = "wishotstudio@gmail.com"
+EMAIL_HOST_PASSWORD = "uyfsosisxsqxxspq"
 app.config['MAIL_USERNAME'] = EMAIL_USERNAME
 app.config['MAIL_PASSWORD'] = EMAIL_HOST_PASSWORD
 
