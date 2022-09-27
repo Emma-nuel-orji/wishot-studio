@@ -34,6 +34,7 @@ def contact():
     user = User
     form = contactForm()
     if form.validate_on_submit():
+
         msg = Message(f'New Message from {current_user.username}', sender=f'{user.email}',
                       recipients=['wishotstudio@gmail.com'])
         msg.body = f"""
